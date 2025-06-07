@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AQMTemplate.Web.Client",
   "resources": {
-    "hash": "sha256-sRWQ3JNw/NkVnfm25pgGArJ5JZQeNOVAagjgslNt1/I=",
+    "hash": "sha256-NhctdqivQ8QehcFu0sHVBru83M/3c4XVq/Zmbq1k094=",
     "fingerprinting": {
       "Azure.Core.92q6rqqhly.wasm": "Azure.Core.wasm",
       "Azure.Identity.b6ekoqlu3w.wasm": "Azure.Identity.wasm",
@@ -252,31 +252,31 @@
       "netstandard.or41gtprh3.wasm": "netstandard.wasm",
       "System.Private.CoreLib.gdne0axslz.wasm": "System.Private.CoreLib.wasm",
       "dotnet.js": "dotnet.js",
-      "dotnet.native.hvg7u8bimp.js": "dotnet.native.js",
-      "dotnet.native.3c4wvb350q.wasm": "dotnet.native.wasm",
-      "dotnet.runtime.cymp1amu5g.js": "dotnet.runtime.js",
+      "dotnet.native.hmanx9razn.js": "dotnet.native.js",
+      "dotnet.native.p4lwlf2bu1.wasm": "dotnet.native.wasm",
+      "dotnet.runtime.o8gq1i8bk6.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "AQMTemplate.Application.gmmsbhx344.wasm": "AQMTemplate.Application.wasm",
-      "AQMTemplate.Domain.1hbopkeqfy.wasm": "AQMTemplate.Domain.wasm",
-      "AQMTemplate.Infrastructure.dasdjpuaxe.wasm": "AQMTemplate.Infrastructure.wasm",
-      "AQMTemplate.Utilities.kq8tdpqz75.wasm": "AQMTemplate.Utilities.wasm",
-      "AQMTemplate.Application.kmb8grzmde.pdb": "AQMTemplate.Application.pdb",
-      "AQMTemplate.Domain.luj84sc34d.pdb": "AQMTemplate.Domain.pdb",
-      "AQMTemplate.Infrastructure.7n9gid4yg4.pdb": "AQMTemplate.Infrastructure.pdb",
-      "AQMTemplate.Utilities.pr9681r4m7.pdb": "AQMTemplate.Utilities.pdb",
-      "AQMTemplate.Web.Client.pd95gznwrf.wasm": "AQMTemplate.Web.Client.wasm",
-      "AQMTemplate.Web.Client.gopzfyww6v.pdb": "AQMTemplate.Web.Client.pdb"
+      "AQMTemplate.Application.hx6c4o5mvw.wasm": "AQMTemplate.Application.wasm",
+      "AQMTemplate.Domain.2irq9w7kf5.wasm": "AQMTemplate.Domain.wasm",
+      "AQMTemplate.Infrastructure.x8atczs2nh.wasm": "AQMTemplate.Infrastructure.wasm",
+      "AQMTemplate.Utilities.ajsxyy2fak.wasm": "AQMTemplate.Utilities.wasm",
+      "AQMTemplate.Application.1ip0r316zj.pdb": "AQMTemplate.Application.pdb",
+      "AQMTemplate.Domain.ol3mcmtwll.pdb": "AQMTemplate.Domain.pdb",
+      "AQMTemplate.Infrastructure.254sgzefgf.pdb": "AQMTemplate.Infrastructure.pdb",
+      "AQMTemplate.Utilities.6sj8rrohll.pdb": "AQMTemplate.Utilities.pdb",
+      "AQMTemplate.Web.Client.4xhh94lm95.wasm": "AQMTemplate.Web.Client.wasm",
+      "AQMTemplate.Web.Client.drghi8f9lx.pdb": "AQMTemplate.Web.Client.pdb"
     },
     "jsModuleNative": {
-      "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
+      "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.cymp1amu5g.js": "sha256-dCmS9Zx4egtLYSUgTI3R6gMS+Yg8MkzxW1CgEMJKAEw="
+      "dotnet.runtime.o8gq1i8bk6.js": "sha256-uD1t4tsPtmIHsx30SC4OztehGGaHVDksFD38rL2e3P4="
     },
     "wasmNative": {
-      "dotnet.native.3c4wvb350q.wasm": "sha256-89jyB8DlCnV2BPMV477jOe1Sm0WXwVf8RuoSPsj4Ym8="
+      "dotnet.native.p4lwlf2bu1.wasm": "sha256-+eNtxSEiakcWrx6VoLGcDvqDWS3/kWe0AtiYmQFwe7E="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -534,18 +534,18 @@
       "WindowsBase.ag32297siy.wasm": "sha256-BgyZxTgdU9rIYlNC9ZMiMjnvBAJSL0eQH8Y87o1M+q4=",
       "mscorlib.vt9pwshhot.wasm": "sha256-/aFxOaPc1iTNlJw0z4/RGEMD0nzl4qVE3SF4wMsLgp0=",
       "netstandard.or41gtprh3.wasm": "sha256-nD1KqAI5YYz+YohqHaZ5EmXi7Eq9Uy9sUknnI8sj1AM=",
-      "AQMTemplate.Application.gmmsbhx344.wasm": "sha256-eP8cwKK3v36Hd8qFJYX9oLIswkAG7OheCfvG++Xttgs=",
-      "AQMTemplate.Domain.1hbopkeqfy.wasm": "sha256-FTkDpUW9jOkk4qS/GHA33NQ+oe7Z+b+i3UpaspBJOgA=",
-      "AQMTemplate.Infrastructure.dasdjpuaxe.wasm": "sha256-dScmwZtdyYoaiJWf5HVOR8vJxovbNYzUhpMlZneVk9A=",
-      "AQMTemplate.Utilities.kq8tdpqz75.wasm": "sha256-hJ2O/NwkBjmzYOk/24AS6UG4MGIjvnwoSno0A9q0sW0=",
-      "AQMTemplate.Web.Client.pd95gznwrf.wasm": "sha256-Q1U0849cxPbfXYbuOMhhesU0Uvto5mdzal3gQ3euShs="
+      "AQMTemplate.Application.hx6c4o5mvw.wasm": "sha256-6519M1FdTSWUVDWT6hVXF3qvdPfYwIpZ28GOIeiMe9A=",
+      "AQMTemplate.Domain.2irq9w7kf5.wasm": "sha256-uqZnEq+QMB9JtZzH5AjfZlYo5zzMIvic//N24scT924=",
+      "AQMTemplate.Infrastructure.x8atczs2nh.wasm": "sha256-3+6l/RSprhLiRJZipBde5eNjxEejILNkwkf8vtU3Gn4=",
+      "AQMTemplate.Utilities.ajsxyy2fak.wasm": "sha256-thjXYMIqrdY6fO/CdcyFWWeV4KeeJitog4+jwN9ozM8=",
+      "AQMTemplate.Web.Client.4xhh94lm95.wasm": "sha256-+H0QzEz8GusEU9okMD8ES4h25tXl7xI9C3962rC/7M4="
     },
     "pdb": {
-      "AQMTemplate.Application.kmb8grzmde.pdb": "sha256-3PhcJf22FU0DZXtgnkjNIfd+JKLdsuPWoNB9x7O50+E=",
-      "AQMTemplate.Domain.luj84sc34d.pdb": "sha256-fQp++aQYeZwJlR2fkLprzBAn1kzScXUHOJoD4P+5rb4=",
-      "AQMTemplate.Infrastructure.7n9gid4yg4.pdb": "sha256-0/ozyFdUaIYsw/Xhi+V41doAh0yGaZoffVEzBnUHPew=",
-      "AQMTemplate.Utilities.pr9681r4m7.pdb": "sha256-9dLtRDE9ZJlsMBR4tDhq3TIEKg1NmsnrRVte+EOV6HY=",
-      "AQMTemplate.Web.Client.gopzfyww6v.pdb": "sha256-wKMP/T3xmF8ChySa6D441dAOJzDCYMuMuIcafx/lbGk="
+      "AQMTemplate.Application.1ip0r316zj.pdb": "sha256-5wfoXNg8GpHRNLlS/AKb6OWtA/ArxeW+1W6yBka7p6k=",
+      "AQMTemplate.Domain.ol3mcmtwll.pdb": "sha256-vC9zlaxv9oZZ/qQ/ngzafpx52cvVZGlAOI3cN6PbmiU=",
+      "AQMTemplate.Infrastructure.254sgzefgf.pdb": "sha256-CuDItYFNxaGVPjtrzTOSKPgb2+PjB9HKisIeeozhg+U=",
+      "AQMTemplate.Utilities.6sj8rrohll.pdb": "sha256-Jh3OQyAmA3MzZH0TxLpD62IWBx3LojwNEyc/XSKcIww=",
+      "AQMTemplate.Web.Client.drghi8f9lx.pdb": "sha256-GRHKHDIdjcUyj3JnMxuW9HT12mhinHnCF/UY3ErpIF0="
     }
   },
   "cacheBootResources": true,

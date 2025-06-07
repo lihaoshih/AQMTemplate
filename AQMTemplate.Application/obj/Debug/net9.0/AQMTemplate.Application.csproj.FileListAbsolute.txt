@@ -34,3 +34,5 @@ D:\AQMTemplate\AQMTemplate.Application\obj\Debug\net9.0\refint\AQMTemplate.Appli
 D:\AQMTemplate\AQMTemplate.Application\obj\Debug\net9.0\AQMTemplate.Application.pdb
 D:\AQMTemplate\AQMTemplate.Application\obj\Debug\net9.0\AQMTemplate.Application.genruntimeconfig.cache
 D:\AQMTemplate\AQMTemplate.Application\obj\Debug\net9.0\ref\AQMTemplate.Application.dll
+C:\Developing\AQMTemplate\AQMTemplate.Application\bin\Debug\net9.0\AQMTemplate.Application.runtimeconfig.json
+C:\Developing\AQMTemplate\AQMTemplate.Application\obj\Debug\net9.0\AQMTemplate.Application.genruntimeconfig.cache

@@ -18,12 +18,16 @@ namespace AQMTemplate.Application.Services.Implementations.Admin;
 
 public class UserService : IUserService
 {
-	private readonly AppDbContext _appDbContext;
+	private readonly IUserRepository _userRepository;
+	private readonly IRoleRepository _roleRepository;
+	private readonly IUserRoleRepository _userRoleRepository;
 	private readonly IPasswordService _passwordService;
 	private readonly ILogger<UserService> _logger;
 	private readonly IUnitOfWork _unitOfWork;
 
-	public UserService(AppDbContext
+	public UserService(IUserRepository userRepository, 
+		IRoleRepository roleRepository, 
+		IUserRoleRepository userRoleRepository,
 		IPasswordService passwordService,
 		IUnitOfWork unitOfWork)
 	{

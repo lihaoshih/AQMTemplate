@@ -1,35 +1,35 @@
 {
   "Files": [
     {
-      "Id": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AQMTemplate.Web.bundle.scp.css",
+      "Id": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\AQMTemplate.Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\AQMTemplate.Web.rdnsbjisf7.bundle.scp.css"
     },
     {
-      "Id": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\app.css",
+      "Id": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\css\\AQMTemplate.css",
+      "Id": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\css\\AQMTemplate.css",
       "PackagePath": "staticwebassets\\css\\AQMTemplate.css"
     },
     {
-      "Id": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\fonts\\Iansui.woff",
+      "Id": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\fonts\\Iansui.woff",
       "PackagePath": "staticwebassets\\fonts\\Iansui.woff"
     },
     {
-      "Id": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\fonts\\Iansui.woff2",
+      "Id": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\fonts\\Iansui.woff2",
       "PackagePath": "staticwebassets\\fonts\\Iansui.woff2"
     },
     {
-      "Id": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\images\\icons\\icons8-home.gif",
+      "Id": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\images\\icons\\icons8-home.gif",
       "PackagePath": "staticwebassets\\images\\icons\\icons8-home.gif"
     },
     {
-      "Id": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\images\\icons\\icons8-list.gif",
+      "Id": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\images\\icons\\icons8-list.gif",
       "PackagePath": "staticwebassets\\images\\icons\\icons8-list.gif"
     },
     {
-      "Id": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\js\\app.js",
+      "Id": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\wwwroot\\js\\app.js",
       "PackagePath": "staticwebassets\\js\\app.js"
     },
     {

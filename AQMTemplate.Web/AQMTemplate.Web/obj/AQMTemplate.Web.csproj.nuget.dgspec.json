@@ -1,43 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\AQMTemplate.Web.csproj": {}
+    "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\AQMTemplate.Web.csproj": {}
   },
   "projects": {
-    "D:\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj": {
+    "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj",
+        "projectUniqueName": "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj",
         "projectName": "AQMTemplate.Application",
-        "projectPath": "D:\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj",
-        "packagesPath": "C:\\Users\\lihao\\.nuget\\packages\\",
-        "outputPath": "D:\\AQMTemplate\\AQMTemplate.Application\\obj\\",
+        "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lihao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj"
               },
-              "D:\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj"
               }
             }
           }
@@ -50,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -89,33 +82,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj": {
+    "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj",
+        "projectUniqueName": "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj",
         "projectName": "AQMTemplate.Domain",
-        "projectPath": "D:\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj",
-        "packagesPath": "C:\\Users\\lihao\\.nuget\\packages\\",
-        "outputPath": "D:\\AQMTemplate\\AQMTemplate.Domain\\obj\\",
+        "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lihao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -132,9 +118,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -155,41 +141,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj": {
+    "C:\\Developing\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Developing\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj",
         "projectName": "AQMTemplate.Infrastructure",
-        "projectPath": "D:\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\lihao\\.nuget\\packages\\",
-        "outputPath": "D:\\AQMTemplate\\AQMTemplate.Infrastructure\\obj\\",
+        "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lihao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj"
               }
             }
           }
@@ -202,9 +181,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -259,41 +238,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj": {
+    "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj",
+        "projectUniqueName": "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj",
         "projectName": "AQMTemplate.Utilities",
-        "projectPath": "D:\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj",
-        "packagesPath": "C:\\Users\\lihao\\.nuget\\packages\\",
-        "outputPath": "D:\\AQMTemplate\\AQMTemplate.Utilities\\obj\\",
+        "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lihao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj"
               }
             }
           }
@@ -306,9 +278,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -335,50 +307,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj": {
+    "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj",
+        "projectUniqueName": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj",
         "projectName": "AQMTemplate.Web.Client",
-        "projectPath": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj",
-        "packagesPath": "C:\\Users\\lihao\\.nuget\\packages\\",
-        "outputPath": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\obj\\",
+        "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lihao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj"
               },
-              "D:\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Domain\\AQMTemplate.Domain.csproj"
               },
-              "D:\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj"
               },
-              "D:\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj"
               }
             }
           }
@@ -391,9 +356,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -406,13 +371,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )",
+              "version": "[9.0.0, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )",
+              "version": "[9.0.0, )",
               "autoReferenced": true
             },
             "Syncfusion.Blazor.Buttons": {
@@ -451,12 +416,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[9.0.0, 9.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -465,46 +436,39 @@
         }
       }
     },
-    "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\AQMTemplate.Web.csproj": {
+    "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\AQMTemplate.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\AQMTemplate.Web.csproj",
+        "projectUniqueName": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\AQMTemplate.Web.csproj",
         "projectName": "AQMTemplate.Web",
-        "projectPath": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\AQMTemplate.Web.csproj",
-        "packagesPath": "C:\\Users\\lihao\\.nuget\\packages\\",
-        "outputPath": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\obj\\",
+        "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\AQMTemplate.Web.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lihao\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Application\\AQMTemplate.Application.csproj"
               },
-              "D:\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Infrastructure\\AQMTemplate.Infrastructure.csproj"
               },
-              "D:\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Utilities\\AQMTemplate.Utilities.csproj"
               },
-              "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj": {
-                "projectPath": "D:\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj"
+              "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj": {
+                "projectPath": "C:\\Developing\\AQMTemplate\\AQMTemplate.Web\\AQMTemplate.Web.Client\\AQMTemplate.Web.Client.csproj"
               }
             }
           }
@@ -517,9 +481,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -631,7 +595,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
