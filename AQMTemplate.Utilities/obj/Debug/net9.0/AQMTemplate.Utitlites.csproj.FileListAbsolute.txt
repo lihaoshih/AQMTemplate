@@ -1,0 +1,15 @@
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\bin\Debug\net9.0\AQMTemplate.Utitlites.deps.json
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\bin\Debug\net9.0\AQMTemplate.Utitlites.dll
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\bin\Debug\net9.0\AQMTemplate.Utitlites.pdb
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\bin\Debug\net9.0\AQMTemplate.Domain.dll
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\bin\Debug\net9.0\AQMTemplate.Domain.pdb
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\AQMTemplate.Utitlites.csproj.AssemblyReference.cache
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\AQMTemplate.Utitlites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\AQMTemplate.Utitlites.AssemblyInfoInputs.cache
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\AQMTemplate.Utitlites.AssemblyInfo.cs
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\AQMTemplate.Utitlites.csproj.CoreCompileInputs.cache
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\AQMTempl.D69DC9AB.Up2Date
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\AQMTemplate.Utitlites.dll
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\refint\AQMTemplate.Utitlites.dll
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\AQMTemplate.Utitlites.pdb
+C:\Developing\AQMTemplate\AQMTemplate.Utitlites\obj\Debug\net9.0\ref\AQMTemplate.Utitlites.dll

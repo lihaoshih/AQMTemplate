@@ -1,0 +1,453 @@
+﻿@font-face {
+    font-family: 'Iansui';
+    src: url('/fonts/Iansui.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body {
+    font-family: Iansui, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sidebar{
+    background: linear-gradient(180deg,#2C3E50 0%, #34495E 100%);
+    transition: all 0.3s ease;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 250px;
+    color: white;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar.collapsed{
+    width: 70px;
+}
+
+.nav-scollable {
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sidebar-header {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+}
+
+    .sidebar-header h4 {
+        margin: 0;
+        font-weight: 600;
+        transition: opacity 0.3s ease;
+    }
+
+.nav-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0.875rem 1.25rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+}
+
+    .nav-link:hover, .nav-link.active {
+        color: white;
+        background-color: rgba(255, 255, 255, 0.1);
+        transform: translateX(2px);
+    }
+
+.nav-icon {
+    min-width: 20px;
+    margin-right: 0.75rem;
+    text-align: center;
+}
+
+.nav-text {
+    flex: 1;
+    transition: opacity 0.3s ease;
+}
+
+.collapsed .nav-text {
+    opacity: 0;
+}
+
+.sub-menu {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding-left: 0;
+}
+
+.sub-nav-link {
+    display: flex;
+    align-items: center;
+    padding: 0.625rem 1.25rem 0.625rem 3rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: 0.9rem;
+}
+
+    .sub-nav-link:hover, .sub-nav-link.active {
+        color: white;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+/* 主要內容區域 */
+main {
+    margin-left: 250px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 0.3s ease;
+}
+
+.collapsed + main {
+    margin-left: 70px;
+}
+
+.top-row {
+    background-color: #fff;
+    border-bottom: 1px solid #e9ecef;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.content {
+    flex: 1;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+
+/* 登入頁面樣式 */
+.login-layout {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 1rem;
+}
+
+.login-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-header {
+    margin-bottom: 2rem;
+}
+
+    .login-header h2 {
+        color: #2c3e50;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+.login-form {
+    text-align: left;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e9ecef;
+}
+
+/* 儀表板樣式 */
+.dashboard-container {
+    padding: 0;
+}
+
+.dashboard-card {
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease;
+}
+
+    .dashboard-card:hover {
+        transform: translateY(-2px);
+    }
+
+.dashboard-card-body {
+    padding: 1.5rem;
+}
+
+.dashboard-card-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+}
+
+.dashboard-card-number {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.dashboard-card-icon {
+    font-size: 2.5rem;
+    opacity: 0.7;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f8f9fa;
+}
+
+    .activity-item:last-child {
+        border-bottom: none;
+    }
+
+.activity-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    color: white;
+}
+
+.activity-content {
+    flex: 1;
+}
+
+    .activity-content p {
+        margin: 0;
+        font-weight: 500;
+    }
+
+/* Toast 通知樣式 */
+.toast-container {
+    position: fixed;
+    z-index: 9999;
+    padding: 1rem;
+    pointer-events: none;
+}
+
+    .toast-container.top-right {
+        top: 20px;
+        right: 20px;
+    }
+
+    .toast-container.top-left {
+        top: 20px;
+        left: 20px;
+    }
+
+    .toast-container.bottom-right {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .toast-container.bottom-left {
+        bottom: 20px;
+        left: 20px;
+    }
+
+.toast {
+    pointer-events: auto;
+    width: 350px;
+    margin-bottom: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    animation: toast-slide-in 0.3s ease-out;
+}
+
+.toast-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.toast-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.toast-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.toast-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.toast-header {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px 8px 0 0;
+}
+
+.toast-body {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 0 0 8px 8px;
+}
+
+@keyframes toast-slide-in {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* 表格和按鈕樣式 */
+.btn-group .btn {
+    margin-right: 0.25rem;
+}
+
+    .btn-group .btn:last-child {
+        margin-right: 0;
+    }
+
+/* 錯誤頁面樣式 */
+.not-found-container {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+    .not-found-container h1 {
+        font-size: 8rem;
+        font-weight: bold;
+        color: #e9ecef;
+        margin-bottom: 1rem;
+    }
+
+/* 載入中樣式 */
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+
+/* 響應式設計 */
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+        .sidebar.show {
+            transform: translateX(0);
+        }
+
+    main {
+        margin-left: 0;
+    }
+
+    .dashboard-card-number {
+        font-size: 1.5rem;
+    }
+
+    .dashboard-card-icon {
+        font-size: 2rem;
+    }
+
+    .toast {
+        width: calc(100vw - 2rem);
+        max-width: 350px;
+    }
+}
+
+/* Syncfusion 覆蓋樣式 */
+.e-grid .e-headercell {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.e-grid .e-row:hover {
+    background-color: #f8f9fa;
+}
+
+/* 自定義按鈕樣式 */
+.btn-outline-primary:hover,
+.btn-outline-info:hover,
+.btn-outline-success:hover,
+.btn-outline-warning:hover,
+.btn-outline-danger:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 表單樣式 */
+.form-floating > label {
+    color: #6c757d;
+}
+
+.form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* 卡片樣式 */
+.card {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    font-weight: 600;
+}

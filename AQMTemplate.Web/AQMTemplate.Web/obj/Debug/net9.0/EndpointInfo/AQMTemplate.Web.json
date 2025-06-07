@@ -1,0 +1,524 @@
+{
+  "x-generator": "NSwag v14.4.0.0 (NJsonSchema v11.3.2.0 (Newtonsoft.Json v13.0.0.0))",
+  "swagger": "2.0",
+  "info": {
+    "title": "My Title",
+    "version": "1.0.0"
+  },
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/api/cryptography": {
+      "post": {
+        "operationId": "AQMTemplateWebEndpointsUtilitiesSecurityCryptographyEndpoint",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "CryptographyRequest",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/CryptographyRequest"
+            },
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/CryptographyResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/hash": {
+      "post": {
+        "operationId": "AQMTemplateWebEndpointsUtilitiesSecurityHashEndpoint",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "HashingRequest",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/HashingRequest"
+            },
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/HashingResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/passwordhash": {
+      "post": {
+        "operationId": "AQMTemplateWebEndpointsUtilitiesAuthPasswordHashingEndpoint",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "String",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "type": "string"
+            },
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/HashedPasswordResult"
+            }
+          }
+        }
+      }
+    },
+    "/api/auth/verifypassword": {
+      "post": {
+        "operationId": "AQMTemplateWebEndpointsUtilitiesAuthPasswordVerifyEndpoint",
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "VerifyPasswordRequest",
+            "in": "body",
+            "required": true,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/VerifyPasswordRequest"
+            },
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "",
+            "schema": {
+              "$ref": "#/definitions/VerifyPasswordResponse"
+            }
+          }
+        }
+      }
+    },
+    "/api/menus": {
+      "get": {
+        "operationId": "AQMTemplateWebEndpointsAdminGetMenusEndpoint",
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/MenuDto"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users": {
+      "get": {
+        "operationId": "AQMTemplateWebEndpointsAdminGetUsersEndpoint",
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/UserDto"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "CryptographyResponse": {
+      "type": "object",
+      "required": [
+        "result",
+        "algorithm",
+        "blockCipherMode",
+        "paddingMode"
+      ],
+      "properties": {
+        "result": {
+          "type": "string"
+        },
+        "algorithm": {
+          "type": "string"
+        },
+        "blockCipherMode": {
+          "type": "string"
+        },
+        "paddingMode": {
+          "type": "string"
+        },
+        "asymmetricKey": {
+          "type": "string"
+        }
+      }
+    },
+    "CryptographyRequest": {
+      "type": "object",
+      "required": [
+        "operation",
+        "inputText",
+        "passPhrase",
+        "algorithm",
+        "cipherMode",
+        "paddingMode"
+      ],
+      "properties": {
+        "operation": {
+          "$ref": "#/definitions/CryptoOperation"
+        },
+        "inputText": {
+          "type": "string"
+        },
+        "passPhrase": {
+          "type": "string"
+        },
+        "algorithm": {
+          "$ref": "#/definitions/CryptoAlgorithm"
+        },
+        "cipherMode": {
+          "$ref": "#/definitions/CipherModeEnum"
+        },
+        "paddingMode": {
+          "$ref": "#/definitions/PaddingModeEnum"
+        },
+        "asymmetricKey": {
+          "type": "string"
+        }
+      }
+    },
+    "CryptoOperation": {
+      "type": "integer",
+      "description": "",
+      "x-enumNames": [
+        "Encrypt",
+        "Decrypt"
+      ],
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "CryptoAlgorithm": {
+      "type": "integer",
+      "description": "",
+      "x-enumNames": [
+        "AES",
+        "TripleDES",
+        "RSA"
+      ],
+      "enum": [
+        0,
+        1,
+        2
+      ]
+    },
+    "CipherModeEnum": {
+      "type": "integer",
+      "description": "",
+      "x-enumNames": [
+        "ECB",
+        "CBC",
+        "CFB",
+        "OFB",
+        "GCM"
+      ],
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "PaddingModeEnum": {
+      "type": "integer",
+      "description": "",
+      "x-enumNames": [
+        "PKCS7",
+        "Zeros",
+        "ANSIX923",
+        "ISO10126"
+      ],
+      "enum": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "HashingResponse": {
+      "type": "object",
+      "required": [
+        "result",
+        "algorithm"
+      ],
+      "properties": {
+        "result": {
+          "type": "string"
+        },
+        "algorithm": {
+          "type": "string"
+        }
+      }
+    },
+    "HashingRequest": {
+      "type": "object",
+      "required": [
+        "inputText",
+        "algorithm"
+      ],
+      "properties": {
+        "inputText": {
+          "type": "string"
+        },
+        "algorithm": {
+          "$ref": "#/definitions/HashingAlgorithm"
+        }
+      }
+    },
+    "HashingAlgorithm": {
+      "type": "integer",
+      "description": "",
+      "x-enumNames": [
+        "MD5",
+        "SHA1",
+        "SHA256",
+        "SHA384",
+        "SHA512"
+      ],
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "HashedPasswordResult": {
+      "type": "object",
+      "required": [
+        "saltBase64",
+        "hashBase64"
+      ],
+      "properties": {
+        "saltBase64": {
+          "type": "string"
+        },
+        "hashBase64": {
+          "type": "string"
+        }
+      }
+    },
+    "VerifyPasswordResponse": {
+      "type": "object",
+      "required": [
+        "isSuccessful"
+      ],
+      "properties": {
+        "isSuccessful": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "retrievedSalt": {
+          "type": "string"
+        },
+        "retrivedHash": {
+          "type": "string"
+        }
+      }
+    },
+    "VerifyPasswordRequest": {
+      "type": "object",
+      "required": [
+        "account",
+        "password"
+      ],
+      "properties": {
+        "account": {
+          "type": "string",
+          "minLength": 1
+        },
+        "password": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "MenuDto": {
+      "type": "object",
+      "required": [
+        "menuId",
+        "menuName",
+        "sortOrder",
+        "isVisible",
+        "createdAt",
+        "modifiedAt"
+      ],
+      "properties": {
+        "menuId": {
+          "type": "string"
+        },
+        "parentMenuId": {
+          "type": "string"
+        },
+        "menuName": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "permissionId": {
+          "type": "string"
+        },
+        "sortOrder": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "isVisible": {
+          "type": "boolean"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifiedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/MenuDto"
+          }
+        }
+      }
+    },
+    "UserDto": {
+      "type": "object",
+      "required": [
+        "userId",
+        "account",
+        "userName",
+        "gender",
+        "isActive",
+        "isLocked",
+        "failedLoginAttempt",
+        "createdAt",
+        "modifiedAt"
+      ],
+      "properties": {
+        "userId": {
+          "type": "string"
+        },
+        "account": {
+          "type": "string"
+        },
+        "department": {
+          "type": "string"
+        },
+        "jobTitle": {
+          "type": "string"
+        },
+        "userName": {
+          "type": "string"
+        },
+        "displayName": {
+          "type": "string"
+        },
+        "avatarUrl": {
+          "type": "string"
+        },
+        "alias": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "idNumber": {
+          "type": "string"
+        },
+        "birthday": {
+          "type": "string",
+          "format": "date"
+        },
+        "postalCode": {
+          "type": "string"
+        },
+        "mailingAddress": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "isActive": {
+          "type": "boolean"
+        },
+        "isLocked": {
+          "type": "boolean"
+        },
+        "failedLoginAttempt": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "lastLogin": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "annotation": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modifiedAt": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}
