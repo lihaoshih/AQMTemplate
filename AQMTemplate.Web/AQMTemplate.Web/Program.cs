@@ -4,7 +4,7 @@ global using Syncfusion.Blazor;
 using AQMTemplate.Application;
 using AQMTemplate.Domain.Common.Security;
 using AQMTemplate.Domain.Enums.Security;
-using AQMTemplate.Infrastructure.Extensions;
+using AQMTemplate.Infrastructure;
 using AQMTemplate.Infrastructure.Persistence;
 using AQMTemplate.Web;
 using AQMTemplate.Web.Components;

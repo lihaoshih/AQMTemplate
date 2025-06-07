@@ -117,7 +117,6 @@ C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\Syste
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.Composition.Runtime.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.Composition.TypedParts.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.Text.Json.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\YamlDotNet.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -594,7 +593,6 @@ C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\OpenT
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.ClientModel.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.Drawing.Common.dll
-C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.Formats.Asn1.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.Memory.Data.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.Runtime.Caching.dll
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
@@ -719,9 +717,5 @@ C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\compr
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\compressed\klmnspddx3-ct4fmrcq8p.gz
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\compressed\eh2oyoghat-zl74s6m8o6.gz
 C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\compressed\urjux61uzt-7ct88ncwq4.gz
-C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\staticwebassets\msbuild.AQMTemplate.Web.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\staticwebassets\msbuild.AQMTemplate.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\staticwebassets\msbuild.build.AQMTemplate.Web.props
-C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.AQMTemplate.Web.props
-C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.AQMTemplate.Web.props
-C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\AQMTemplate.Web.sourcelink.json
+C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web\obj\Debug\net9.0\staticwebassets.build.json.cache

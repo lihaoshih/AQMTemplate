@@ -28,3 +28,4 @@ D:\AQMTemplate\AQMTemplate.Utilities\obj\Debug\net9.0\AQMTemplate.Utilities.dll
 D:\AQMTemplate\AQMTemplate.Utilities\obj\Debug\net9.0\refint\AQMTemplate.Utilities.dll
 D:\AQMTemplate\AQMTemplate.Utilities\obj\Debug\net9.0\AQMTemplate.Utilities.pdb
 D:\AQMTemplate\AQMTemplate.Utilities\obj\Debug\net9.0\ref\AQMTemplate.Utilities.dll
+C:\Developing\AQMTemplate\AQMTemplate.Utilities\obj\Debug\net9.0\AQMTemplate.Utilities.sourcelink.json

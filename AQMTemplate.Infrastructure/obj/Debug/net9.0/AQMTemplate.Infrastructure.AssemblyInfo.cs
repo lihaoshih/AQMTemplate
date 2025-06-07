@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AQMTemplate.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d999bf817e5ce65030eba2c6937c88082a778a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eea5388f8c9f9babdef31b6f8c446ae076ab3839")]
 [assembly: System.Reflection.AssemblyProductAttribute("AQMTemplate.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AQMTemplate.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

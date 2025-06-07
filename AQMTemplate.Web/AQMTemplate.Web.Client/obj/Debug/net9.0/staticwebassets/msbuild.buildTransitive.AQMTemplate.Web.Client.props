@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\AQMTemplate.Web.Client.props" />
-</Project>

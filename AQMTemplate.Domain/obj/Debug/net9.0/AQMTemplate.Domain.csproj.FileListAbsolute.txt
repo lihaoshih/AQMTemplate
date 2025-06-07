@@ -20,3 +20,4 @@ D:\AQMTemplate\AQMTemplate.Domain\obj\Debug\net9.0\AQMTemplate.Domain.dll
 D:\AQMTemplate\AQMTemplate.Domain\obj\Debug\net9.0\refint\AQMTemplate.Domain.dll
 D:\AQMTemplate\AQMTemplate.Domain\obj\Debug\net9.0\AQMTemplate.Domain.pdb
 D:\AQMTemplate\AQMTemplate.Domain\obj\Debug\net9.0\ref\AQMTemplate.Domain.dll
+C:\Developing\AQMTemplate\AQMTemplate.Domain\obj\Debug\net9.0\AQMTemplate.Domain.sourcelink.json

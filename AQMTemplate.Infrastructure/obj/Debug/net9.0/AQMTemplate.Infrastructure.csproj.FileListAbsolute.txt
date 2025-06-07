@@ -40,3 +40,4 @@ D:\AQMTemplate\AQMTemplate.Infrastructure\obj\Debug\net9.0\refint\AQMTemplate.In
 D:\AQMTemplate\AQMTemplate.Infrastructure\obj\Debug\net9.0\AQMTemplate.Infrastructure.pdb
 D:\AQMTemplate\AQMTemplate.Infrastructure\obj\Debug\net9.0\AQMTemplate.Infrastructure.genruntimeconfig.cache
 D:\AQMTemplate\AQMTemplate.Infrastructure\obj\Debug\net9.0\ref\AQMTemplate.Infrastructure.dll
+C:\Developing\AQMTemplate\AQMTemplate.Infrastructure\obj\Debug\net9.0\AQMTemplate.Infrastructure.sourcelink.json
