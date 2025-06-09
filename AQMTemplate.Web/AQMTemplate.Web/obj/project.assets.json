@@ -143,23 +143,6 @@
           }
         }
       },
-      "FastEndpoints.Swagger/6.1.0": {
-        "type": "package",
-        "dependencies": {
-          "FastEndpoints": "6.1.0",
-          "NSwag.AspNetCore": "14.4.0"
-        },
-        "compile": {
-          "lib/net9.0/FastEndpoints.Swagger.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net9.0/FastEndpoints.Swagger.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "FluentValidation/12.0.0": {
         "type": "package",
         "compile": {
@@ -1718,10 +1701,12 @@
           }
         },
         "build": {
-          "build/_._": {}
+          "build/NSwag.AspNetCore.props": {},
+          "build/NSwag.AspNetCore.targets": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/_._": {}
+          "buildMultiTargeting/NSwag.AspNetCore.props": {},
+          "buildMultiTargeting/NSwag.AspNetCore.targets": {}
         }
       },
       "NSwag.Core/14.4.0": {
@@ -3076,24 +3061,6 @@
         "lib/net8.0/FastEndpoints.Security.xml",
         "lib/net9.0/FastEndpoints.Security.dll",
         "lib/net9.0/FastEndpoints.Security.xml"
-      ]
-    },
-    "FastEndpoints.Swagger/6.1.0": {
-      "sha512": "wqvW46aRpWNA8EXjWEeBVhiQ4Vhii9ab0lq0cHrLpqn24fttFIqQaUJbI/j6gSIDIUacteQfuHVJWBkBPFfRtw==",
-      "type": "package",
-      "path": "fastendpoints.swagger/6.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "fastendpoints.swagger.6.1.0.nupkg.sha512",
-        "fastendpoints.swagger.nuspec",
-        "icon.png",
-        "lib/net10.0/FastEndpoints.Swagger.dll",
-        "lib/net10.0/FastEndpoints.Swagger.xml",
-        "lib/net8.0/FastEndpoints.Swagger.dll",
-        "lib/net8.0/FastEndpoints.Swagger.xml",
-        "lib/net9.0/FastEndpoints.Swagger.dll",
-        "lib/net9.0/FastEndpoints.Swagger.xml"
       ]
     },
     "FluentValidation/12.0.0": {
@@ -7453,13 +7420,13 @@
       "FastEndpoints >= 6.1.0",
       "FastEndpoints.Generator >= 6.1.0",
       "FastEndpoints.Security >= 6.1.0",
-      "FastEndpoints.Swagger >= 6.1.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 9.0.5",
       "Microsoft.EntityFrameworkCore >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.5",
       "Microsoft.OpenApi >= 1.6.24",
+      "NSwag.AspNetCore >= 14.4.0",
       "Npgsql >= 9.0.3",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.4",
       "Npgsql.OpenTelemetry >= 9.0.3",
@@ -7550,10 +7517,6 @@
             "target": "Package",
             "version": "[6.1.0, )"
           },
-          "FastEndpoints.Swagger": {
-            "target": "Package",
-            "version": "[6.1.0, )"
-          },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
             "target": "Package",
             "version": "[9.0.5, )"
@@ -7581,6 +7544,10 @@
           "Microsoft.OpenApi": {
             "target": "Package",
             "version": "[1.6.24, )"
+          },
+          "NSwag.AspNetCore": {
+            "target": "Package",
+            "version": "[14.4.0, )"
           },
           "Npgsql": {
             "target": "Package",
@@ -7645,5 +7612,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

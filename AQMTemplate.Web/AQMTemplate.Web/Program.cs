@@ -2,14 +2,23 @@ global using FastEndpoints;
 global using Microsoft.EntityFrameworkCore;
 global using Syncfusion.Blazor;
 using AQMTemplate.Application;
+using AQMTemplate.Application.Services.Implementations.Admin;
+using AQMTemplate.Application.Services.Implementations.Auth;
+using AQMTemplate.Application.Services.Interfaces;
+using AQMTemplate.Application.Services.Interfaces.Admin;
+using AQMTemplate.Application.Services.Interfaces.Auth;
 using AQMTemplate.Domain.Common.Security;
 using AQMTemplate.Domain.Enums.Security;
+using AQMTemplate.Domain.Interfaces.Persistence.Repository.Admin;
+using AQMTemplate.Domain.Interfaces.Security.Auth;
 using AQMTemplate.Infrastructure;
 using AQMTemplate.Infrastructure.Persistence;
+using AQMTemplate.Infrastructure.Persistence.Repositories;
+using AQMTemplate.Infrastructure.Persistence.Repositories.Admin;
+using AQMTemplate.Infrastructure.Services.Security.Auth;
 using AQMTemplate.Web;
 using AQMTemplate.Web.Components;
 using AQMTemplate.Web.MiddleWare;
-using FastEndpoints.Swagger;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -31,10 +40,30 @@ builder.Services.AddRazorComponents()
 	.AddInteractiveWebAssemblyComponents();
 
 builder.Services.AddFastEndpoints();
-builder.Services.AddSwaggerDocument();
+builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddSwaggerDocument();
 
-builder.Services.AddApplication();
-builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddDbContext<AppDbContext>(options =>
+	options.UseNpgsql(builder.Configuration.GetConnectionString("NpgConnection"),
+    npgsqlOptions => npgsqlOptions.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)
+    ) // Recommended for PostgreSQL
+);
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
+builder.Services.AddScoped<IRolePermissionRepository, RolePermissionRepository>();
+builder.Services.AddScoped<IUserRoleRepository, UserRoleRepository>();
+builder.Services.AddScoped<IMenuRepository, MenuRepository>();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
+
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IRoleService, RoleService>();
+builder.Services.AddScoped<IPermissionService, PermissionService>();
+builder.Services.AddScoped<IMenuService, MenuService>();
 
 builder.Services.AddSyncfusionBlazor();
 
@@ -57,14 +86,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 //builder.Services.AddWebServices();
 
-builder.Services.AddSwaggerGen(options =>
+
+builder.Services.AddOpenApiDocument(settings =>
 {
-	options.SwaggerDoc("v1", new OpenApiInfo
-	{
-		Title = "AQMTemplate FastEndpoints API",
-		Version = "v1",
-		Description = "AQMTemplate"
-	});
+	settings.Title = "AQMTemplate API (NSwag)";
+	settings.Version = "1.0.0";
 });
 
 if (builder.Environment.IsDevelopment())
@@ -87,12 +113,8 @@ app.UseFastEndpoints();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-	app.UseSwagger();
-	app.UseSwaggerUI(options =>
-	{
-		options.SwaggerEndpoint("/swagger/v1/swagger.json", "FastEndpoint API V1");
-		options.RoutePrefix = string.Empty;
-	});
+	app.UseOpenApi();
+	app.UseSwaggerUi();
 
 	app.UseWebAssemblyDebugging();
 	app.UseCors();

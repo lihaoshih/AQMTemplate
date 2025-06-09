@@ -15,13 +15,13 @@
           "FastEndpoints": "6.1.0",
           "FastEndpoints.Generator": "6.1.0",
           "FastEndpoints.Security": "6.1.0",
-          "FastEndpoints.Swagger": "6.1.0",
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "9.0.5",
           "Microsoft.EntityFrameworkCore": "9.0.5",
           "Microsoft.EntityFrameworkCore.Design": "9.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.5",
           "Microsoft.OpenApi": "1.6.24",
+          "NSwag.AspNetCore": "14.4.0",
           "Npgsql": "9.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
           "Npgsql.OpenTelemetry": "9.0.3",
@@ -130,18 +130,6 @@
         },
         "runtime": {
           "lib/net9.0/FastEndpoints.Security.dll": {
-            "assemblyVersion": "6.1.0.0",
-            "fileVersion": "6.1.0.0"
-          }
-        }
-      },
-      "FastEndpoints.Swagger/6.1.0": {
-        "dependencies": {
-          "FastEndpoints": "6.1.0",
-          "NSwag.AspNetCore": "14.4.0"
-        },
-        "runtime": {
-          "lib/net9.0/FastEndpoints.Swagger.dll": {
             "assemblyVersion": "6.1.0.0",
             "fileVersion": "6.1.0.0"
           }
@@ -1889,13 +1877,6 @@
       "sha512": "sha512-gNpNVIeD0jLleXw6+Un81xdTVL2A1W2uQfMSv8+gq503ALYITYnMhwidLatDLHbQtUKfxma965aR3MNnro9exw==",
       "path": "fastendpoints.security/6.1.0",
       "hashPath": "fastendpoints.security.6.1.0.nupkg.sha512"
-    },
-    "FastEndpoints.Swagger/6.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-wqvW46aRpWNA8EXjWEeBVhiQ4Vhii9ab0lq0cHrLpqn24fttFIqQaUJbI/j6gSIDIUacteQfuHVJWBkBPFfRtw==",
-      "path": "fastendpoints.swagger/6.1.0",
-      "hashPath": "fastendpoints.swagger.6.1.0.nupkg.sha512"
     },
     "FluentValidation/12.0.0": {
       "type": "package",

@@ -78,3 +78,5 @@ D:\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web.Client\obj\Debug\net9.0\staticweb
 D:\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web.Client\obj\Debug\net9.0\staticwebassets.build.json
 D:\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web.Client\obj\Debug\net9.0\staticwebassets.build.json
 D:\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Developing\AQMTemplate\AQMTemplate.Web\AQMTemplate.Web.Client\obj\Debug\net9.0\staticwebassets.build.json
